@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.block__logo {
+  display: flex;
+  justify-content: center;
+}
+.block__logo img {
+  width: 50px;
+}
+.flex-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.block__brand {
+  font-size: 36px;
+}
+.block-contact {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 10px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  margin-top: 10px;
+  height: 60px;
+  color: white;
+  background-color: black;
+  align-items: center;
+}
+li {
+  list-style: none;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  bottom: 1rem;
+  border-bottom: 2px solid rgb(0, 166, 255);
+  align-items: end;
+}
+.flex-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+}
+.portfolio img {
+  width: 300px;
+  border-radius: 5px;
+}
+.content {
+  background-color: #ebebeb;
+}
+.product-line {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  background-color: white;
+  margin: 20px;
+  border-radius: 5px;
+  padding: 20px;
+  width: 900px;
+  height: 450px;
+}
+
+.btn {
+  font-weight: 600;
+  padding: 12px 30px;
+  border: none;
+  background-color: #00b2bec7;
+  border-radius: 30px;
+}
+.btn2 {
+  font-weight: 600;
+  padding: 12px 30px;
+  border: none;
+  background-color: #00b2bec7;
+  color: white;
+}
+.btn:hover {
+  background-color: blanchedalmond;
+}
+.btn2:hover {
+  background-color: rgb(255, 153, 0);
+}
+.flex-line {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.form-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.block-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #ffffff;
+  align-content: flex-start;
+  padding: 35px 15px;
+  width: 100%;
+  align-items: flex-start;
+}
+input {
+  border: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  height: 30px;
+  font-size: 16px;
+}
+label {
+  font-size: 22px;
+}
+
+.block-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
